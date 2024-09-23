@@ -1,0 +1,38 @@
+2024-09-23 17:32:49,598 - src.config.logging_config - INFO - Starting data ingestion process
+2024-09-23 17:32:49,641 - src.config.logging_config - INFO - Saved Iris dataset to data/iris.csv
+2024-09-23 17:32:49,833 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ddb1623f310>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:32:54,094 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ddb1601e550>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:33:02,587 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ddb1620f150>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:33:18,827 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ddb1620e690>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:42:52,484 - src.config.logging_config - INFO - Starting data ingestion process
+2024-09-23 17:42:52,514 - src.config.logging_config - INFO - Saved Iris dataset to data/iris.csv
+2024-09-23 17:42:52,658 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7a4d229089d0>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:42:56,809 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7a4d2290a050>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:43:05,675 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=2, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7a4d22af7510>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:43:21,701 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=1, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7a4d22af62d0>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:45:38,183 - src.config.logging_config - INFO - Starting data ingestion process
+2024-09-23 17:45:38,194 - src.config.logging_config - INFO - Saved Iris dataset to data/iris.csv
+2024-09-23 17:45:39,782 - botocore.credentials - INFO - Found credentials in environment variables.
+2024-09-23 17:53:18,742 - src.config.logging_config - INFO - Starting data ingestion process
+2024-09-23 17:53:18,757 - src.config.logging_config - INFO - Saved Iris dataset to data/iris.csv
+2024-09-23 17:53:18,861 - urllib3.connectionpool - WARNING - Retrying (Retry(total=4, connect=4, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ed4d2489d10>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:53:23,349 - urllib3.connectionpool - WARNING - Retrying (Retry(total=3, connect=3, read=5, redirect=5, status=5)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPConnection object at 0x7ed4d2489850>: Failed to resolve 'mlflow' ([Errno -2] Name or service not known)")': /api/2.0/mlflow/runs/create
+2024-09-23 17:55:10,662 - src.config.logging_config - INFO - Starting data ingestion process
+2024-09-23 17:55:10,675 - src.config.logging_config - INFO - Saved Iris dataset to data/iris.csv
+2024-09-23 17:55:11,545 - botocore.credentials - INFO - Found credentials in environment variables.
+2024-09-23 18:05:19,837 - src.config.logging_config - INFO - Starting data ingestion process
+2024-09-23 18:05:19,848 - src.config.logging_config - INFO - Saved Iris dataset to data/iris.csv
+2024-09-23 18:05:20,531 - botocore.credentials - INFO - Found credentials in environment variables.
+2024-09-23 18:05:20,649 - src.config.logging_config - INFO - Data ingestion completed successfully
+2024-09-23 18:07:36,158 - src.config.logging_config - INFO - Starting data ingestion process
+2024-09-23 18:07:36,171 - src.config.logging_config - INFO - Saved Iris dataset to data/iris.csv
+2024-09-23 18:07:36,291 - botocore.credentials - INFO - Found credentials in environment variables.
+2024-09-23 18:07:36,400 - src.config.logging_config - INFO - Data ingestion completed successfully
+2024-09-23 18:11:26,042 - src.config.logging_config - INFO - Starting data ingestion process
+2024-09-23 18:11:26,052 - src.config.logging_config - INFO - Saved Iris dataset to data/iris.csv
+2024-09-23 18:11:26,168 - botocore.credentials - INFO - Found credentials in environment variables.
+2024-09-23 18:11:26,272 - src.config.logging_config - INFO - Data ingestion completed successfully
+2024-09-23 18:18:20,346 - src.config.logging_config - INFO - Starting data ingestion process
+2024-09-23 18:18:20,363 - src.config.logging_config - INFO - Saved Iris dataset to /home/user/mlops-from-scratch/data/iris.csv
+2024-09-23 18:18:20,527 - botocore.credentials - INFO - Found credentials in environment variables.
+2024-09-23 18:18:21,222 - src.config.logging_config - INFO - Data ingestion completed successfully

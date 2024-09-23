@@ -1,12 +1,15 @@
-# File: src/data_ingestion/ingestion.py
-
+import os
+import sys
 import pandas as pd
 from sklearn.datasets import load_iris
 import mlflow
-import os
-from config.mlflow_config import setup_mlflow
-from onfig.logging_config import setup_logging
 
+# Add the project root directory to the Python path
+project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+sys.path.insert(0, project_root)
+
+from src.config.mlflow_config import setup_mlflow
+from src.config.logging_config import setup_logging
 
 logger = setup_logging()
 
@@ -25,12 +28,13 @@ def ingest_data():
     os.makedirs('data', exist_ok=True)
     
     # Save data to CSV
-    csv_path = 'data/iris.csv'
+    csv_path = os.path.join(project_root, 'data', 'iris.csv')
     df.to_csv(csv_path, index=False)
     logger.info(f"Saved Iris dataset to {csv_path}")
     
     # Log dataset info with MLflow
-    with mlflow.start_run(run_name="data_ingestion"):
+    mlflow.set_experiment("data_ingestion")
+    with mlflow.start_run(run_name="iris_data_ingestion"):
         mlflow.log_artifact(csv_path, 'dataset')
         mlflow.log_param('dataset_shape', df.shape)
         mlflow.log_param('dataset_columns', df.columns.tolist())
