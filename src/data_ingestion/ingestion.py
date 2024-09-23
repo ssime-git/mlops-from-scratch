@@ -1,11 +1,12 @@
-# File: mlops-project/src/data_ingestion/ingestion.py
+# File: src/data_ingestion/ingestion.py
 
 import pandas as pd
 from sklearn.datasets import load_iris
 import mlflow
 import os
 from config.mlflow_config import setup_mlflow
-from config.logging_config import setup_logging
+from onfig.logging_config import setup_logging
+
 
 logger = setup_logging()
 
