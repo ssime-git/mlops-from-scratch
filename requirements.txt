@@ -1,0 +1,6 @@
+# File: mlops-project/requirements.txt
+
+pandas
+scikit-learn
+mlflow
+boto3
